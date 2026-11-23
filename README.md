@@ -1,68 +1,31 @@
-# ⏰ Digital Clock
+# Digital Clock ⏰
 
-A simple **Digital Clock** application built using **Python** and **Tkinter**. The clock displays the current time and date and updates automatically every second.
+## About the Project
+This is a simple Digital Clock built using Python and Tkinter. It displays the current time, day, and date in a graphical user interface (GUI).
 
-## 📌 Features
+The clock automatically updates every second.
 
-* Displays current time in **HH:MM:SS AM/PM** format.
-* Displays the current date.
-* Updates every second automatically.
-* Simple and user-friendly graphical interface.
-* Built using Python's built-in `tkinter` library.
+## Features
+- Displays current time (Hours, Minutes, Seconds).
+- Shows AM/PM.
+- Displays the current day.
+- Shows the current date.
+- Automatically updates every second.
+- Simple and attractive GUI.
 
-## 🛠️ Technologies Used
+## Technologies Used
+- Python
+- Tkinter
+- Time Module
 
-* Python 3
-* Tkinter
-* Time Module (`strftime`)
-
-## 📂 Project Structure
-
-```text
-Digital-Clock/
-│── digital_clock.py
-│── README.md
-```
-
-## ▶️ How to Run
-
-1. Make sure Python 3 is installed.
-2. Clone this repository or download the project.
-3. Open the project folder in your terminal.
-4. Run the following command:
+## How to Run
+1. Clone or download this repository.
+2. Open the project folder.
+3. Run the Python file:
 
 ```bash
 python digital_clock.py
 ```
 
-## 📸 Output
-
-The application opens a window displaying:
-
-* Current Time
-* Current Date
-
-The display updates automatically every second.
-
-## 📖 Concepts Learned
-
-* Creating GUI applications using Tkinter
-* Using `Label` widgets
-* Using the `pack()` geometry manager
-* Formatting date and time with `strftime()`
-* Updating the GUI using the `after()` method
-* Functions and event-driven programming
-
-## 🚀 Future Improvements
-
-* Add multiple themes (Dark/Light Mode)
-* Display the day of the week
-* Add an alarm feature
-* Display different time zones
-* Add a customizable font and background color
-
-## 👩‍💻 Author
-
-**Riddhi Deshmukh**
-
-GitHub: https://github.com/riddhideshmukh15
+## Author
+Riddhi Deshmukh
